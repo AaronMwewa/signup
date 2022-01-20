@@ -1,0 +1,81 @@
+@media screen and (max-width:600px) {
+    .light {
+        padding: 0 1rem;
+    }
+    .shape img {
+        position: absolute;
+        width: 30rem;
+        transform: rotate(210deg);
+        bottom: -50%;
+        left: -5%;
+        z-index: 1;
+        opacity: 10;
+    }
+    .shape img:last-child {
+        width: 30rem;
+        transform: rotate(120deg);
+        top: -15%;
+        left: 35%;
+        opacity: 0.3;
+    }
+    header {
+        margin: 1rem 6rem;
+    }
+    nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+    header nav img {
+        width: 30px;
+    }
+    header nav ul {
+        display: none;
+    }
+    header nav .menu {
+        display: unset;
+    }
+    header nav .menu img {
+        width: 30px;
+    }
+    main {
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    main .left {
+        width: 100%;
+    }
+    main .left h1 {
+        font-size: 2rem;
+        position: relative;
+    }
+    main .left h1:before {
+        position: absolute;
+        content: "by Aaron MWEWA";
+        font-size: 1rem;
+        bottom: -590%;
+        left: 20%;
+    }
+    main .left h1::after {
+        position: absolute;
+        content: "Aaron MWEWA";
+        font-size: 1rem;
+        top: -70%;
+        left: 30%;
+    }
+    main .left p {
+        font-size: 1.2rem;
+    }
+    main .left button {
+        width: 100px;
+        height: 40px;
+        font-size: .8rem;
+    }
+    main .right {
+        justify-content: center;
+        width: 100%;
+    }
+    main .right img {
+        width: 100%;
+    }
+    /*# sourceMappingURL=styles.css.map */
+}
